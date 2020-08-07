@@ -37,7 +37,7 @@ class Car {
 
   set price(newPrice) {
 
-    return this._price = newPrice;
+    this._price = newPrice;
   }
   /*
    * Добавь код для того чтобы завести автомобиль
